@@ -21,3 +21,19 @@ img{
 #messageError{
 	text-align: center;
 }
+
+@media screen and (max-width: 760px) {
+	#inputSearch{
+		width:12rem;
+	}
+	#categories{
+		margin-top: 0.6rem;
+
+	}
+	.navbar-brand{
+		width: 100%;
+		text-align: center !important;
+		margin: 0 auto !important;
+	}
+};
+	
