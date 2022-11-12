@@ -1,0 +1,23 @@
+img{
+	height: 15rem;
+	overflow: hidden;
+}
+.card{
+	overflow: hidden;
+}
+#productsContainer .card{
+	border-radius: 0.1rem;
+	transition: all .3s ease;
+}
+#productsContainer .card:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 3rem -1.6rem;
+	border-radius: 1rem;
+	border: 1px solid rgb(144, 144, 142);
+}
+#inputSearch{
+	width: 25rem;
+}
+#messageError{
+	text-align: center;
+}
