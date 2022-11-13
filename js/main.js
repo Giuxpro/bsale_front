@@ -44,7 +44,7 @@ inputSearch.addEventListener('input', (e) => {
 
 /* An event listener that is listening for a click event on the button. 
 *  if searchForProduct is empty will return an error,
-*  otherwise it will call getProductsByName function 
+*  otherwise it will call getProductsByName function. 
 */
 btnSubmit.addEventListener('click', (e) => {
     e.preventDefault();
