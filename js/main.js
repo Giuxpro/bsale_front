@@ -25,7 +25,7 @@ let searchForProduct = '';
 
 /* Listening for a click event on the categories element. If the value of the target is 0 it will call
 the getProducts function, otherwise it will call the getProductsByCategories function. */
-categories.addEventListener('click', (e) => {
+categories.addEventListener('change', (e) => {
     if(e.target.value == 0){
         getProducts();
         return;
